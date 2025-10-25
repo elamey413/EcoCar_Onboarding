@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCP2542FD_E_SN")(type "KiCad")(uri "C:/Users/erikl/Documents/KiCad/imported libraries/MCP2542FD_E_SN.pretty")(options "")(descr ""))
+  (lib (name "CAN_transiever")(type "KiCad")(uri "C:/Users/erikl/Documents/KiCad/imported libraries/MCP2542FD_E_SN/KiCADv6/footprints.pretty/CAN_transiever.pretty")(options "")(descr ""))
+)
