@@ -5243,7 +5243,7 @@
 	)
 	(text "5k1 Resistors set VBUS to 5V\n"
 		(exclude_from_sim no)
-		(at 257.048 77.724 0)
+		(at 255.016 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5562,14 +5562,6 @@
 		(uuid "00a44a00-c575-4b11-88de-161048948af2")
 	)
 	(no_connect
-		(at 200.66 73.66)
-		(uuid "089bd1aa-50ab-4241-8913-eb1ca525015c")
-	)
-	(no_connect
-		(at 167.64 116.84)
-		(uuid "09003be1-9a7c-4a53-80fc-e1c35eb411e4")
-	)
-	(no_connect
 		(at 110.49 138.43)
 		(uuid "0d1ebc96-c37a-4a85-82bb-13bb3d6cbf71")
 	)
@@ -5588,6 +5580,10 @@
 	(no_connect
 		(at 24.13 180.34)
 		(uuid "1c368b03-2bbc-45f4-9833-ce3e9f694f3f")
+	)
+	(no_connect
+		(at 167.64 73.66)
+		(uuid "1d22807b-a5ee-4e14-968c-7cc684f078ea")
 	)
 	(no_connect
 		(at 167.64 83.82)
@@ -5610,12 +5606,12 @@
 		(uuid "39ed13b4-a68b-43f2-99dd-3e7edb0c32a5")
 	)
 	(no_connect
-		(at 167.64 71.12)
-		(uuid "3a254444-2127-477b-bc03-6394856fa352")
-	)
-	(no_connect
 		(at 200.66 55.88)
 		(uuid "3eff8cc0-342d-4e39-b8b8-fdc6c47b42aa")
+	)
+	(no_connect
+		(at 167.64 71.12)
+		(uuid "41dbfd2a-cbb0-49fc-923e-74cfafe793d1")
 	)
 	(no_connect
 		(at 167.64 78.74)
@@ -5626,16 +5622,8 @@
 		(uuid "61d96e83-8fe1-4ae0-baf4-1ffeec5bb799")
 	)
 	(no_connect
-		(at 200.66 76.2)
-		(uuid "65ce77af-3b35-4bdd-bfe9-eff06fade8d7")
-	)
-	(no_connect
 		(at 200.66 53.34)
 		(uuid "74beefaf-b512-4f9a-a65c-ef35cd308337")
-	)
-	(no_connect
-		(at 200.66 71.12)
-		(uuid "78964225-e797-4293-a1f3-dadbdba8235e")
 	)
 	(no_connect
 		(at 245.11 116.84)
@@ -5654,20 +5642,12 @@
 		(uuid "85722596-5e69-4d17-8514-4caee1ee58f1")
 	)
 	(no_connect
-		(at 167.64 68.58)
-		(uuid "939598ab-0850-4ab6-badf-fffc02725074")
-	)
-	(no_connect
 		(at 73.66 142.24)
 		(uuid "9450d2f2-9444-40f9-81c2-cf982c7327bb")
 	)
 	(no_connect
 		(at 45.72 144.78)
 		(uuid "94f67627-4e0e-41f3-975c-fc55d03735fd")
-	)
-	(no_connect
-		(at 167.64 114.3)
-		(uuid "96663496-2d49-4e4f-a28e-a7e32171099b")
 	)
 	(no_connect
 		(at 45.72 139.7)
@@ -5694,6 +5674,10 @@
 		(uuid "dd7d3995-9081-4b6c-b7db-df7ce0a7f160")
 	)
 	(no_connect
+		(at 167.64 68.58)
+		(uuid "e0846fac-5164-4080-80d6-06500369f596")
+	)
+	(no_connect
 		(at 245.11 119.38)
 		(uuid "e648168d-e339-46f7-a5eb-048e6ddda5e3")
 	)
@@ -5702,16 +5686,22 @@
 		(uuid "e963ab9b-e5c7-4dfa-9c35-928a036828b7")
 	)
 	(no_connect
-		(at 167.64 73.66)
-		(uuid "ea16285b-fb62-4b9b-abe5-88de7fe81a45")
-	)
-	(no_connect
 		(at 267.97 127)
 		(uuid "eaff6eae-46b0-47cf-a6be-067d2e996034")
 	)
 	(no_connect
 		(at 24.13 175.26)
 		(uuid "ebda4a23-9fb0-49a3-ae3b-a543e775b40c")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 167.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00319d51-c47b-44b0-9621-8c378050e404")
 	)
 	(wire
 		(pts
@@ -5765,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 203.2 78.74)
+			(xy 200.66 78.74) (xy 222.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6105,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 134.62) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e44a9c4-51b6-4df1-ab97-91fae7297074")
+	)
+	(wire
+		(pts
 			(xy 30.48 48.26) (xy 30.48 50.8)
 		)
 		(stroke
@@ -6212,6 +6212,26 @@
 			(type default)
 		)
 		(uuid "3c048812-c6ed-43b9-bb80-9928430ea586")
+	)
+	(wire
+		(pts
+			(xy 200.66 73.66) (xy 208.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0c32a8-08b6-4504-9f8c-d66fa207bd60")
+	)
+	(wire
+		(pts
+			(xy 208.28 73.66) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c391639-9ec5-4df4-aaea-ba5cd2446ba9")
 	)
 	(wire
 		(pts
@@ -6375,6 +6395,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 104.14) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d42106-38f7-4de2-b360-18e62f43db59")
+	)
+	(wire
+		(pts
 			(xy 237.49 106.68) (xy 245.11 106.68)
 		)
 		(stroke
@@ -6535,6 +6565,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610bb838-d3bf-40f7-9ba8-1e4fd9c90a08")
+	)
+	(wire
+		(pts
 			(xy 45.72 137.16) (xy 68.58 137.16)
 		)
 		(stroke
@@ -6655,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 134.62) (xy 172.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c51b69a-0d46-4280-bd34-eab5ca2e3c89")
+	)
+	(wire
+		(pts
 			(xy 134.62 36.83) (xy 134.62 38.1)
 		)
 		(stroke
@@ -6682,16 +6732,6 @@
 			(type default)
 		)
 		(uuid "724ce64d-92f1-4f20-b5db-2b74b6a2f2fc")
-	)
-	(wire
-		(pts
-			(xy 218.44 78.74) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726c99da-06f8-4162-895a-37c400b1ff7c")
 	)
 	(wire
 		(pts
@@ -6755,6 +6795,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 104.14) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d89a4c-1ba9-4ae8-b5c2-2f9826941ea6")
+	)
+	(wire
+		(pts
 			(xy 190.5 36.83) (xy 190.5 45.72)
 		)
 		(stroke
@@ -6762,16 +6812,6 @@
 			(type default)
 		)
 		(uuid "7a355b2d-0c9c-41b8-8585-ecf3cedf9720")
-	)
-	(wire
-		(pts
-			(xy 200.66 81.28) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a50503a-2ef7-4fee-a991-91bd2ecb2880")
 	)
 	(wire
 		(pts
@@ -6792,6 +6832,26 @@
 			(type default)
 		)
 		(uuid "7b5d0ab1-c7f6-4986-b9cb-617aef3e6b52")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7b3a74-3985-4d65-b37d-f401286792ff")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcba3f8-58ed-41cd-91aa-b6ca15aeddd0")
 	)
 	(wire
 		(pts
@@ -6875,6 +6935,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 81.28) (xy 224.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879ccdc9-4d30-46e8-94e2-b06680c642a5")
+	)
+	(wire
+		(pts
 			(xy 119.38 105.41) (xy 119.38 107.95)
 		)
 		(stroke
@@ -6905,6 +6975,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a402fa9-1adf-4f7f-8f4c-1ed3f8cb31b0")
+	)
+	(wire
+		(pts
 			(xy 149.86 104.14) (xy 167.64 104.14)
 		)
 		(stroke
@@ -6915,6 +6995,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 104.14) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d77439f-779f-4317-8e7f-4a63c77cf49c")
+	)
+	(wire
+		(pts
 			(xy 45.72 88.9) (xy 45.72 87.63)
 		)
 		(stroke
@@ -6922,6 +7012,16 @@
 			(type default)
 		)
 		(uuid "8e1422fd-e985-491b-90c4-920a179512ff")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f41d526-1181-4ace-9e86-32ec484a7cf2")
 	)
 	(wire
 		(pts
@@ -7195,6 +7295,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 114.3) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49cb658-06d1-45a1-b63e-c19166d52e33")
+	)
+	(wire
+		(pts
 			(xy 231.14 107.95) (xy 231.14 111.76)
 		)
 		(stroke
@@ -7292,6 +7402,16 @@
 			(type default)
 		)
 		(uuid "b087cbab-0bc7-4d5a-b37d-2ac8594fad94")
+	)
+	(wire
+		(pts
+			(xy 200.66 95.25) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0dfbbb8-3d04-4d59-9ee5-a284cc53ce36")
 	)
 	(wire
 		(pts
@@ -7402,6 +7522,16 @@
 			(type default)
 		)
 		(uuid "c103013c-49a1-47d2-b3ea-e1d6708a8f35")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29925cd-2586-442b-8306-b78f1535a37c")
 	)
 	(wire
 		(pts
@@ -7625,6 +7755,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26f5318-4266-4077-a0b0-db3c7730a737")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 123.19 81.28)
 		)
 		(stroke
@@ -7685,7 +7825,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 68.58) (xy 218.44 71.12)
+			(xy 234.95 81.28) (xy 232.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7722,6 +7862,16 @@
 			(type default)
 		)
 		(uuid "ee7b6200-5a64-4e05-8679-03cb0bf3a241")
+	)
+	(wire
+		(pts
+			(xy 214.63 71.12) (xy 214.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f638f0a9-1e18-4b75-9b5d-0cd836b27fbb")
 	)
 	(wire
 		(pts
@@ -7844,7 +7994,7 @@
 		(uuid "217e434f-997c-4892-b28d-75ceab8d478c")
 	)
 	(label "USB_D+"
-		(at 203.2 81.28 0)
+		(at 219.71 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7934,7 +8084,7 @@
 		(uuid "6944f330-a3b6-4ed0-a95d-a6f81d737369")
 	)
 	(label "USB_D-"
-		(at 203.2 78.74 0)
+		(at 222.25 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9636,7 +9786,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 218.44 68.58 0)
+		(at 234.95 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9644,7 +9794,7 @@
 		(dnp no)
 		(uuid "38ed4931-9630-4601-9a03-5671fc01ad48")
 		(property "Reference" "#PWR016"
-			(at 218.44 72.39 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +9803,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 217.932 65.024 0)
+			(at 234.442 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 68.58 0)
+			(at 234.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 68.58 0)
+			(at 234.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 218.44 68.58 0)
+			(at 234.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,6 +10116,84 @@
 			(project ""
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a756ce-b8c7-4e14-b826-5d8dcada12e0")
+		(property "Reference" "D?"
+			(at 216.916 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 215.138 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f8f8ac0-e1c1-4259-b733-d1858ea5d5df")
+		)
+		(pin "2"
+			(uuid "06b06491-eac3-4af4-a37e-6bd6de630f52")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -10303,6 +10531,152 @@
 			(project ""
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 172.72 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51af375e-f735-4e90-ad09-a0f6d2e38c52")
+		(property "Reference" "D?"
+			(at 176.53 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 176.53 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 172.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 172.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c16d416c-10f3-44f0-911a-a481191c9f4a")
+		)
+		(pin "2"
+			(uuid "cd6db2e9-95c9-4115-8b60-76c29a54f02c")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5399d2c6-6e1e-4187-b099-587d91fd48df")
+		(property "Reference" "#PWR042"
+			(at 200.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4880d22c-507c-4ff9-878b-15cb4afd846c")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 74.93 0)
+		(at 228.6 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11179,7 +11553,7 @@
 		(dnp no)
 		(uuid "6cd27bbc-9e05-4669-9705-6ab15326eaf6")
 		(property "Reference" "R5"
-			(at 221.234 73.914 0)
+			(at 229.616 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +11562,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 220.726 75.946 0)
+			(at 227.584 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11197,7 +11571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 216.662 74.93 90)
+			(at 228.6 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 74.93 0)
+			(at 228.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11589,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 74.93 0)
+			(at 228.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,6 +12670,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 208.28 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e8933df-affd-4e93-bdac-305569287f27")
+		(property "Reference" "D?"
+			(at 210.566 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 208.788 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "542dc889-e5a5-4afe-8c91-89adac96a8c6")
+		)
+		(pin "2"
+			(uuid "4b9fe1f2-799c-4a41-8ca5-faaa4ed59554")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 201.93 41.91 0)
 		(unit 1)
@@ -12494,6 +12946,140 @@
 			(project "Ecocar on boarding"
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98068de1-d154-4552-a1cf-3f7eb8a8d31f")
+		(property "Reference" "#PWR041"
+			(at 172.72 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01165344-60d0-4c30-822b-87480e832f5f")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98c8ce61-d18b-48e3-8cdd-89a7665be099")
+		(property "Reference" "R?"
+			(at 167.64 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 169.926 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 163.322 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edffaef7-20eb-447c-b0d0-b675a8d2c66f")
+		)
+		(pin "1"
+			(uuid "2a68e25e-8b99-42fa-bea7-5dea516beb19")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -12718,6 +13304,73 @@
 			(project "Ecocar on boarding"
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab682c4f-9c5d-47f6-a828-47ca67ba34ea")
+		(property "Reference" "R?"
+			(at 175.26 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 177.546 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 170.942 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a1eaca1-0037-47cd-94ad-42a6f94d93fb")
+		)
+		(pin "1"
+			(uuid "5adc3faa-17d2-430a-b0d0-64202262bad2")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -13007,6 +13660,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 208.28 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b74361cb-5a1b-413a-a175-fcc1f0c3189c")
+		(property "Reference" "R?"
+			(at 210.82 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 211.582 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 206.502 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "920c4702-5bd7-40b5-b2ef-5296c42ff60d")
+		)
+		(pin "1"
+			(uuid "1ef1a40f-f02e-428f-abb7-5c6c3fe5580a")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Display_Character:NHD-C0220BIZ")
 		(at 34.29 177.8 0)
 		(mirror y)
@@ -13102,6 +13822,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 165.1 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90a053d-68bd-4dc6-b118-198213c8e916")
+		(property "Reference" "#PWR040"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20209714-6ec3-4f40-8a1f-929c8e5f1ea0")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 30.48 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13175,10 +13962,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9a2e00a-9a8e-4bd4-9e12-7937d5fa3ca7")
 		(property "Reference" "Y1"
-			(at 160.02 68.5098 0)
+			(at 146.812 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,7 +13972,7 @@
 			)
 		)
 		(property "Value" "OT32258MJBA4SL"
-			(at 160.02 71.0498 0)
+			(at 146.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,6 +14022,151 @@
 			(project ""
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 200.66 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb01cc9e-c0a5-43ff-bcde-e0c0f28caf90")
+		(property "Reference" "D?"
+			(at 202.946 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 201.168 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3af3dddf-2b50-4a85-9239-ea58d7c3027c")
+		)
+		(pin "2"
+			(uuid "6a7b4376-ae01-44fd-a7b4-bd24bbfe61f4")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2bf875-d129-4ce2-a051-0d0fcef8d6cb")
+		(property "Reference" "#PWR043"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18fedabe-3cfb-4671-9261-d66aecae0bc0")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13867,6 +14798,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 214.63 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "decaddf6-1200-4355-8bbb-ccec96246dca")
+		(property "Reference" "#PWR044"
+			(at 214.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ad5271-566b-4986-9ceb-294b5c516809")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 163.83 0)
 		(unit 1)
@@ -14011,6 +15009,73 @@
 			(project ""
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3755099-e381-4e71-a30e-a466c47c17cd")
+		(property "Reference" "R?"
+			(at 203.2 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 203.962 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 198.882 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd20d6ea-4082-4ef2-bb95-94480149b1ff")
+		)
+		(pin "1"
+			(uuid "e0e54355-565d-4ba1-886b-19e0bb5ee138")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -14485,6 +15550,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 165.1 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee45d962-854b-4bd5-8906-d3448db87bfc")
+		(property "Reference" "D?"
+			(at 168.91 141.2874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_B"
+			(at 168.91 143.8274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8183c4d5-4185-45fc-a7d5-4981a03ff0e6")
+		)
+		(pin "2"
+			(uuid "09cab291-b1e8-45f5-931c-d1c992316de7")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 63.5 76.2 0)
 		(unit 1)
@@ -14758,6 +15902,73 @@
 			(project "Ecocar on boarding"
 				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8535f84-c50d-4d6a-893a-f57e9afc0302")
+		(property "Reference" "R?"
+			(at 217.17 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 217.932 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 212.852 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15625aa6-10a5-4408-9fc7-d0acfc9af1e4")
+		)
+		(pin "1"
+			(uuid "306ddf29-fb3b-4d73-84c7-3741e4e1ec7a")
+		)
+		(instances
+			(project "Ecocar on boarding"
+				(path "/7b26e2ca-4d10-4e9c-bc10-bb7653bdc0f5"
+					(reference "R?")
 					(unit 1)
 				)
 			)
